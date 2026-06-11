@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>axuanya7 — Projects</title>
+  <title>林宇轩 | Projects</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -337,23 +337,6 @@
     // Projects
     const projects = [
       {
-        title: '心灵树洞',
-        icon: '🌳',
-        tags: ['Node.js', 'Cloudflare'],
-        live: true,
-        shortDesc: '匿名校园社交平台，30+ API、5 大版块、管理后台与内容审核系统。',
-        tech: 'Node.js + Express + MySQL → CF Pages Functions + D1 + R2 | 前端原生 HTML/CSS/JS SPA',
-        demo: 'https://treehole.axuanya.xyz/',
-        details: [
-          '独立开发的全栈匿名社交平台，包含 <strong>30+ API 接口</strong>、5 大论坛版块、管理后台、内容审核系统',
-          '完成<strong>架构迁移</strong>：将 Express + MySQL 单体应用完整迁移至 Cloudflare Pages 无服务器架构',
-          '自研<strong>构建工具链</strong>：编写 build-functions.js，实现依赖图解析与代码内联，解决 CF Pages Functions 不支持跨文件导入的限制',
-          '设计<strong>多层反机器人系统</strong>：设备指纹、注册频率限制、行为分析、账号名模式拦截',
-          '实现<strong>内容审核工作流</strong>：两级封禁系统支持定时自动解封；可配置帖子审核机制',
-          '前端纯原生实现 SPA 架构，约 <strong>3200 行</strong>代码',
-        ],
-      },
-      {
         title: 'YJWJ 脚本',
         icon: '🎮',
         tags: ['Cloudflare'],
@@ -385,6 +368,23 @@
           '图片资源存储于 <strong>R2 对象存储</strong>，通过 Cloudflare CDN 全球加速分发',
           '7 个前端页面共用 <code>common.js</code> 统一管理导航、鉴权、弹窗等公共逻辑',
           '响应式设计，适配桌面端与移动端',
+        ],
+      },
+      {
+        title: '心灵树洞',
+        icon: '🌳',
+        tags: ['Node.js', 'Cloudflare'],
+        live: true,
+        shortDesc: '匿名校园社交平台，30+ API、5 大版块、管理后台与内容审核系统。',
+        tech: 'Node.js + Express + MySQL → CF Pages Functions + D1 + R2 | 前端原生 HTML/CSS/JS SPA',
+        demo: 'https://treehole.axuanya.xyz/',
+        details: [
+          '独立开发的全栈匿名社交平台，包含 <strong>30+ API 接口</strong>、5 大论坛版块、管理后台、内容审核系统',
+          '完成<strong>架构迁移</strong>：将 Express + MySQL 单体应用完整迁移至 Cloudflare Pages 无服务器架构',
+          '自研<strong>构建工具链</strong>：编写 build-functions.js，实现依赖图解析与代码内联，解决 CF Pages Functions 不支持跨文件导入的限制',
+          '设计<strong>多层反机器人系统</strong>：设备指纹、注册频率限制、行为分析、账号名模式拦截',
+          '实现<strong>内容审核工作流</strong>：两级封禁系统支持定时自动解封；可配置帖子审核机制',
+          '前端纯原生实现 SPA 架构，约 <strong>3200 行</strong>代码',
         ],
       },
       {
